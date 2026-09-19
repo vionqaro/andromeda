@@ -1,0 +1,714 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NORA-B206-00B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -33.02 33.655 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "NORA-B206-00B" (id 1) (at -33.02 -35.56 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "NORA-B206-00B:IC_NORA-B206-00B" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "672-NORA-B206-00BCT-ND" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/NORA-B206-00B/u-blox/view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CREATOR" "AAMIR" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/NORA-B206-00B/u-blox/view-part/?ref=eda" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "R04" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VERIFIER" "RODRIGO" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "u-blox" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "NORA-B206-00B" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            802.15.4, Bluetooth Bluetooth v6.0, Matter, Thread, Zigbee® Transceiver Module 2.4GHz PCB Trace Surface Mount\n                        \n" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "u-blox" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NORA-B206-00B_0_0"
+      (rectangle (start -33.02 -33.02) (end 33.02 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at 38.1 -15.24 180.0) (length 5.08)
+        (name "P1.11_ASO_3_RADIO_2_AIN4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08)
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -38.1 -25.4 0) (length 5.08) hide
+        (name "NC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 12.7 0) (length 5.08)
+        (name "P0.00"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 10.16 0) (length 5.08)
+        (name "P0.01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 30.48 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 30.48 180.0) (length 5.08) hide
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 30.48 180.0) (length 5.08) hide
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 38.1 -30.48 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 7.62 180.0) (length 5.08)
+        (name "P2.06_TRACECLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -2.54 180.0) (length 5.08)
+        (name "P2.10_TRACEDATA_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -17.78 180.0) (length 5.08)
+        (name "P1.12_ASI_3_RADIO_3_AIN5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -10.16 0) (length 5.08)
+        (name "P1.03_NFC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -2.54 0) (length 5.08)
+        (name "P1.00_XL1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -5.08 0) (length 5.08)
+        (name "P1.01_XL2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 7.62 0) (length 5.08)
+        (name "P0.02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 7.62 0) (length 5.08) hide
+        (name "P0.02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 17.78 180.0) (length 5.08)
+        (name "P2.03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 20.32 180.0) (length 5.08)
+        (name "P2.02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -10.16 180.0) (length 5.08)
+        (name "P1.09_ASO_2_RADIO_0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 12.7 180.0) (length 5.08)
+        (name "P2.05"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 15.24 180.0) (length 5.08)
+        (name "P2.04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -22.86 180.0) (length 5.08)
+        (name "P1.14_RADIO_5_AIN7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -7.62 180.0) (length 5.08)
+        (name "P1.08_EXTREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 22.86 180.0) (length 5.08)
+        (name "P2.01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 25.4 180.0) (length 5.08)
+        (name "P2.00"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -17.78 0) (length 5.08)
+        (name "P1.06_ASO_1_AIN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -20.32 0) (length 5.08)
+        (name "P1.07_ASI_1_AIN3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -20.32 180.0) (length 5.08)
+        (name "P1.13_RADIO_4_AIN6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -20.32 180.0) (length 5.08) hide
+        (name "P1.13_RADIO_4_AIN6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -12.7 0) (length 5.08)
+        (name "P1.04_ASO_0_AIN0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -15.24 0) (length 5.08)
+        (name "P1.05_ASI_0_RADIO_6_AIN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 20.32 0) (length 5.08)
+        (name "SWDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 2.54 0) (length 5.08)
+        (name "P0.04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 -12.7 180.0) (length 5.08)
+        (name "P1.10_ASI_2_RADIO_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -38.1 17.78 0) (length 5.08)
+        (name "SWDCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -38.1 25.4 0) (length 5.08)
+        (name "~{RESET}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 5.08 0) (length 5.08)
+        (name "P0.03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 -7.62 0) (length 5.08)
+        (name "P1.02_NFC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 5.08 180.0) (length 5.08)
+        (name "P2.07_TRACEDATA_0_SWO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 2.54 180.0) (length 5.08)
+        (name "P2.08_TRACEDATA_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 0.0 180.0) (length 5.08)
+        (name "P2.09_TRACEDATA_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
