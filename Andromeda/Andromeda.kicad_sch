@@ -2,9 +2,119 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid f75d7f4e-9b64-477b-ae26-656ea39c557c)
+	(uuid "f75d7f4e-9b64-477b-ae26-656ea39c557c")
 	(paper "A4")
+	(title_block
+		(title "Andromeda")
+		(company "Vion Qaro")
+	)
 	(lib_symbols)
+	(sheet
+		(at 76.2 50.8)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ccf9d281-a5d3-4abd-a6fe-12d7c2e0edf3")
+		(property "Sheetname" "Power"
+			(at 76.2 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 76.2 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PMIC_GPIO0" bidirectional
+			(at 101.6 73.66 0)
+			(uuid "f9ac3252-665b-4338-9d05-1f22422ce6de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_GPIO1" bidirectional
+			(at 101.6 76.2 0)
+			(uuid "ce80092b-9084-4b5a-a10f-b7358e753264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_PG_RESET" bidirectional
+			(at 101.6 68.58 0)
+			(uuid "315b760e-4f34-4408-8990-8867e548faae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_SCL" input
+			(at 101.6 63.5 0)
+			(uuid "c895bceb-36dc-48ec-bf2f-afb7ea8f9c9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_SDA" bidirectional
+			(at 101.6 60.96 0)
+			(uuid "c8bedd76-8ab2-478b-aa21-fdf3cd711720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_VOUTLDO" output
+			(at 101.6 53.34 0)
+			(uuid "c4bde11e-893a-46ef-a664-4166f87b447b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Andromeda"
+				(path "/f75d7f4e-9b64-477b-ae26-656ea39c557c"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

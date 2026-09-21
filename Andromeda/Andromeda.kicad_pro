@@ -303,7 +303,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -417,6 +417,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -426,13 +434,22 @@
       {
         "filename": "Andromeda.kicad_sch",
         "name": "Andromeda",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "f75d7f4e-9b64-477b-ae26-656ea39c557c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-3,BT1,SW1,R1-4,L1,C1-7,#PWR1-16,Q1,U1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f75d7f4e-9b64-477b-ae26-656ea39c557c",
+      "Andromeda"
+    ],
+    [
+      "ccf9d281-a5d3-4abd-a6fe-12d7c2e0edf3",
+      "Power"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
