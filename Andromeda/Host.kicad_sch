@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "870e7793-1d0d-49c4-91ed-4e59113e3ec9")
+	(paper "A4")
+	(title_block
+		(title "Host")
+		(company "Vion Qaro")
+	)
+	(lib_symbols)
+)

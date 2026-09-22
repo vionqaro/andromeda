@@ -448,6 +448,10 @@
     [
       "ccf9d281-a5d3-4abd-a6fe-12d7c2e0edf3",
       "Power"
+    ],
+    [
+      "d6de08ef-8836-405d-96f9-a3521ce6a8e0",
+      "Host"
     ]
   ],
   "text_variables": {},
